@@ -1,0 +1,3 @@
+raw_list = [["百度","CPY"],["京东","CPY"],["黄轩","PN"],["百度","CPY"]]
+new_list = [list(t) for t in set(tuple(_) fro _ in raw_list)]
+new_list
